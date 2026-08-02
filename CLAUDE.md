@@ -16,3 +16,8 @@ All commits follow Conventional Commits standard:
 - Use modern ES6+ functional React components.
 - Rely on Tailwind utility classes for responsive UI.
 - Keep component structure clean, modular, and accessible.
+
+## AI Collaboration Rules Learned
+1. **Form Handling:** Forms must use native HTML5 constraint validation and explicit inline error banners—do not add unrequested schema validation libraries.
+2. **File Scope:** AI code generation must target specific, isolated files (e.g., `components/SettingsForm.tsx`) and avoid altering top-level directory configurations unless explicitly requested.
+3. **Verification First:** Every UI component request must include a corresponding unit test file in `components/__tests__/` verifying state validation before code approval.
